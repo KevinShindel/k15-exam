@@ -179,11 +179,11 @@
 }
 
 .solution_block tr {
-  border: 5px solid rgba(0, 0, 0, 0.0);
+    border: 5px solid rgba(255,255,255,0.0);
 }
 
 .solution_block td {
-  border: 9px solid rgba(0, 0, 0, 0.0);
+   border: 9px solid rgba(255,255,255,0.0);
   padding: 14px 10px 12px 72px;
 }
 
@@ -241,4 +241,8 @@
 
 .solution_block tr td:last-child {
   background-color: #01983b;
+}
+
+.left_img {
+    float:left;
 }
