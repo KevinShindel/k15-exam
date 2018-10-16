@@ -1,0 +1,57 @@
+.uppercase {
+  text-transform: uppercase;
+}
+
+.arial {
+  font-family: Arial, sans-serif;
+}
+
+.europe {
+  font-family: EuropeExt, Arial, sans-serif;
+}
+
+._12px {
+  font-size: 12px;
+}
+
+._14px {
+  font-size: 14px;
+}
+
+._16px {
+  font-size: 16px;
+}
+
+._18px {
+  font-size: 18px;
+}
+
+._20px {
+  font-size: 20px;
+}
+
+._24px {
+  font-size: 24px;
+}
+
+._30px {
+  font-size: 30px;
+}
+
+._42px {
+  font-size: 42px;
+}
+
+.text_content {
+  font: 14px Arial Regular, sans-serif;
+  color: #0a274d;
+}
+
+.solution_block {
+  font: 14px Arial, sans-serif;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
