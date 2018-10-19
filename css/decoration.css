@@ -60,13 +60,13 @@
 
 .gradient {
   background: linear-gradient(to bottom, #81cc9e 0%, rgba(255, 255, 255, 0) 100%);
+  margin-top:39px;
 }
 
 .bg_youtube {
-  background-image: url(../images/youtube_background.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-}
+  background: url(../images/youtube_background.jpg) center  top no-repeat;
+  min-width: 960px;
+  }
 
 .bg_slider {
   background: url(../images/bg_slider.png) top left no-repeat;
