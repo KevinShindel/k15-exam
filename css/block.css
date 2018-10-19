@@ -181,13 +181,36 @@ padding-top: 50px;
 
 }
 
-.solution_block td {
-  position: relative;
-  text-align: left;
-  vertical-align: top;
+.table {
+  display: table;
+
 }
 
-.solution_block td:first-child::before {
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  background-color: red;
+  text-align: left;
+  vertical-align: top;
+  padding: 14px 10px 12px 72px;
+  font: 14px Arial, sans-serif;
+  color: white;
+}
+
+.v_spacer  {
+  height: 100%;
+  width: 9px;
+}
+
+.h_spacer  {
+  height: 6px;
+  width: 100%;
+}
+
+.cell:first-child::before {
   content: "";
   position: absolute;
   top: 0;
@@ -198,7 +221,7 @@ padding-top: 50px;
 
 }
 
-.solution_block td:first-child::after {
+.cell:first-child::after {
   content: "";
   position: absolute;
   top: 0;
@@ -208,19 +231,19 @@ padding-top: 50px;
   background-color: rgba(255, 0, 0, 0.55);
 
 }
-.solution_block td:first-child {
+.cell:first-child {
 background-image: url(../images/bad.png);
 background-repeat: no-repeat;
 background-position: left 14px top 5px;
 }
 
-.solution_block td:last-child {
+.cell:last-child {
 background-image: url(../images/good.png);
 background-repeat: no-repeat;
 background-position: left 14px top 5px;
 }
 
-.solution_block td:last-child::before {
+.cell:last-child::before {
   content: "";
   position: absolute;
   top: 0;
@@ -230,7 +253,7 @@ background-position: left 14px top 5px;
   background-color: rgba(1, 152, 59, 0.25);
 }
 
-.solution_block td:last-child::after {
+.cell:last-child::after {
   content: "";
   position: absolute;
   top: 0;
