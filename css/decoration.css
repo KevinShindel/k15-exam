@@ -190,6 +190,12 @@
   padding: 14px 10px 12px 72px;
 }
 
+.th {
+  position: relative;
+  z-index: 2;
+
+}
+
 .th td {
   border: 1px solid #d5dfec;
   padding: 13px;
@@ -252,11 +258,10 @@
     float:left;
 }
 
-#nova_bg {
-  position: absolute;
-  top:40px;
-  left:0;
-  opacity: 0.1;
-  font-family: EuropeExt, Arial, sans-serif;
-  font-weight: bold;
+.nova_bg {
+  background: url(../images/pattern.png),
+              url(../images/nova_bg.png) no-repeat;
+  background-size: auto, 100% auto; /* Меняем масштаб */
+  background-color: #01983b;
+
 }

@@ -182,9 +182,8 @@ padding-top: 50px;
 }
 
 .table {
-  display: table;
-
-}
+    display: table;
+  }
 
 .row {
   display: table-row;
